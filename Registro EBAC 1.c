@@ -138,6 +138,7 @@
 	printf("\t1- Cadastrar nome\n");
 	printf("\t2- Consultar nome\n");
 	printf("\t3- Excluir nome\n\n");
+	printf("\t4- Sair do sistema\n\n");
 	printf("Opção: "); // Fim da seleção 
 	
 	scanf("%d", &opcao); // Armazenamento de usuário 
@@ -156,6 +157,11 @@
 		
 		case 3: 
 		Excluir(); 
+		break;
+		
+		case 4:
+		printf("Obrigado por utilizar o sistema! \n");
+		return 0;
 		break;
 		
 		default: 
